@@ -1,0 +1,10 @@
+name: my-env323
+channels:
+  - defaults
+dependencies:
+  - openssl==3.0.8
+  - pip==23.1.2
+  - python==3.10.11
+
+  - pip:
+    - -r requirements.txt
